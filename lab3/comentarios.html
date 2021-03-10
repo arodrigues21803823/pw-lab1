@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <link rel="stylesheet" href="comentarios.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+        <meta charset="UTF-8">
+        <meta name="author" content="Afonso Rodrigues">
+        <meta name="keywords" content="palavras chave">
+        <meta name="description" content="Website sobre Sintra">
+        <title>Multipédia</title>
+        <div class="topmenu">
+            <a href="index.html">Introdução</a>
+            <a href="local.html">Localização</a>
+            <a href="multimedia.html">Multimédia</a>
+            <a href="info.html">Informação</a>
+            <a href="quizz.html">Quizz</a>
+            <a class="active" href="comentarios.html">Comentários</a>
+            <a href="../index.html">Home</a>
+          </div>
+    </head>
+    <body>
+            <h3>Comentários</h3>
+            <br>
+            <form method="POST" action="mailto:afonso.pitukaa@gmail.com" oninput="level.value = flevel.valueAsNumber">
+
+                <fieldset>
+
+                <p>Conseguiu facilmente aceder aos menus pretendidos?</p>
+                <input type="radio" id="zero" name="clareza" value="zero">
+                <label for="zero">0</label>
+                <input type="radio" id="um" name="clareza" value="um">
+                <label for="um">1</label>
+                <input type="radio" id="dois" name="clareza" value="dois">
+                <label for="dois">2</label>
+                <input type="radio" id="tres" name="clareza" value="tres">
+                <label for="tres">3</label>
+                <input type="radio" id="quatro" name="clareza" value="quatro">
+                <label for="quatro">4</label>
+                <input type="radio" id="cinco" name="clareza" value="cinco">
+                <label for="cinco">5</label><br><br>
+               
+                <label for="vol">Num intervalo de 1 a 10, o que achou da pretinência das perguntas do quizz?:</label>
+                <input name = "flevel" id="altitute" type="range" min="0" max=10 value="0">
+                <output for="altitude" name = "level">0</output>/10
+                <br>
+                <br>
+                <br>
+
+                <label for="name">Diga a curiosidade mais interessante que aprendeu sobre Sintra</label><br>
+                <input type="text" value=""><br><br>
+
+                <p>Sentiu que esta página o ajudou a descobrir coisas novas sobre a cidade?</p>
+                 <input type="checkbox" id="id" name="name" value="">
+                 <label for="id">Sim</label><br>
+                 <input type="checkbox" id="id" name="name" value="">
+                 <label for="id"> Não</label><br>
+
+                <p>Achou este Website criativo e original?</p>
+                <input type="checkbox" id="id" name="name" value="">
+                <label for="id">Sim</label><br>
+                <input type="checkbox" id="id" name="name" value="">
+                <label for="id">Não</label><br>
+                <input type="checkbox" id="id" name="name" value="">
+                <label for="id">Prefiro não responder</label><br><br>
+
+
+                <label for="area">Escreva os pontos mais importantes a melhorar </label><br><br>
+                    <textarea id="area" rows="15" cols="30" placeholder="Melhoraria o index visto...."></textarea>
+               <br>
+
+                <input type="submit" value = "enviar email">
+                </fieldset>
+
+
+            </form>
+            <br>
+            <svg width="600" height="289">
+                <g transform="translate(50,100)"> 
+                    <a href="index.html">
+                        <text id="TextElement" x="0" y="0" style="font-family:Arial;font-size:18; visibility:hidden"> Introducao
+                            <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                            <animateMotion path="M 4 0 L 100 89" begin="1s" dur="2s" fill="freeze" />
+                            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="5" begin="1s" dur="5s" fill="freeze" /> 
+                            <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum" begin="2s" dur="5s" fill="freeze" /> 
+                        </text> 
+                    </a>
+                
+                    <a href="local.html">
+                <text id="TextElement" x="0" y="40" style="font-family:Verdana;font-size:12; visibility:hidden"> Localizacao
+                    <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                    <animateMotion path="M 0 0 L 50 100" begin="1s" dur="5s" fill="freeze" />
+                    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                </text> 
+                </a>
+                
+                <a href="multimedia.html">
+                    <text id="TextElement2" x="100" y="30" style="font-family:Verdana;font-size:16; visibility:hidden"> Multimedia
+                    <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                    <animateMotion path="M 0 0 L 50 100" begin="1s" dur="5s" fill="freeze" />
+                    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-15" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                    </text> 
+                </a>
+                    
+                <a href="info.html">
+                    <text id="TextElement3" x="200" y="20" style="font-family:Verdana;font-size:14; visibility:hidden"> Informacao
+                    <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                    <animateMotion path="M 0 0 L 50 100" begin="1s" dur="5s" fill="freeze" />
+                    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-25" to="360" begin="3s" dur="5s" fill="freeze" /> 
+                    </text> 
+                </a>
+                    
+                <a href="comentarios.html">
+                    <text id="TextElement3" x="200" y="-70" style="font-family:Impact;font-size:14; visibility:hidden"> Comentarios
+                    <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                    <animateMotion path="M 10 0 L 50 100" begin="1s" dur="5s" fill="freeze" />
+                    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="2s" fill="freeze" /> 
+                    </text> 
+                </a>
+
+                <a href="quizz.html">
+                    <text id="TextElement3" x="100" y="-80" style="font-family:Courier New;font-size:28; visibility:hidden"> QUIZZ
+                    <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                    <animateMotion path="M 10 0 L 50 100" begin="1s" dur="4s" fill="freeze" />
+                    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                    </text> 
+                </a>
+                    
+                </g> 
+            </svg> 
+    </body>
+</html>

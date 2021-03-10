@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <link rel="stylesheet" href="multimedia.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+        <meta charset="UTF-8">
+        <meta name="author" content="Afonso Rodrigues">
+        <meta name="keywords" content="palavras chave">
+        <meta name="description" content="Website sobre Sintra">
+        <title>Quizz</title>
+        <div class="topmenu">
+            <a href="index.html">Introdução</a>
+            <a href="local.html">Localização</a>
+            <a href="multimedia.html">Multimédia</a>
+            <a href="info.html">Informação</a>
+            <a class="active" href="quizz.html">Quizz</a>
+            <a href="comentarios.html">Comentários</a>
+            <a href="../index.html">Home</a>
+          </div>
+    </head>
+    <body>
+            <h3>Quizz</h3>
+           <form action="mailto:afonso.pitukaa@gmail.com" method="POST" oninput="level.value = flevel.valueAsNumber"> 
+               <fieldset>
+                   <legend>Utilizador</legend>
+                   <label for="uname">Name:</label>
+                   <input type="text" id="uname" name="uname">
+                   <label for="usurname">Surname:</label>
+                   <input type="text" id="surname" name="surname">
+                   <label for="email">Email:</label>
+                   <input type="email" id="email" name="email">
+               </fieldset>
+               <fieldset>
+                    <legend>Sintra Quizz</legend><br>
+                    <legend>Quantos habitantes tem sintra?</legend><br>
+                    <input type="radio" id="habitantes" name="habitantes" value="381 728">
+                    <label for="habitantes">381 728</label>
+                    <input type="radio" id="habitantes2" name="habitantes" value="481 728">
+                    <label for="habitantes2">481 728</label>
+                    <input type="radio" id="habitantes3" name="habitantes" value="281 728">
+                    <label for="habitantes3">281 728</label><br><br>
+
+                    <legend>Quais os municipios que limitam Sintra?</legend>
+                    <input type="checkbox" id="habitantes" name="habitantes" value="381 728">
+                    <label for="habitantes">381 728</label>
+                    <input type="checkbox" id="female" name="gender" value="481 728">
+                    <label for="female">481 728</label>
+                    <input type="checkbox" id="other" name="gender" value="281 728">
+                    <label for="other">281 728</label><br><br>
+                    <br>
+                    <legend>Qual a data de fundação do municipio?</legend>
+                    <input type="date" id="data" name="habitantes" autofocus>
+                    <br>
+                    <legend>Qual a altitude máxima da serra de sintra?</legend>
+                    <input name = "flevel" id="altitute" type="range" min="0" max=600 value="0" autofocus>
+                    <output for="altitude" name = "level">0</output>/600
+                    <br>
+                    <input type="submit" value="Submit">
+                </fieldset>
+           </form>
+    </body>
+</html>

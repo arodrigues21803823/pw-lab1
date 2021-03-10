@@ -1,0 +1,104 @@
+body{
+    background-color: silver;
+    background-position: center; 
+}
+.topmenu {
+    background-color: #333;
+    overflow: hidden;
+  }
+
+.topmenu  a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+.topmenu a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+.topmenu a.active {
+    background-color: #4CAF50;
+    font-weight: bold;
+    color: white;
+  }
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 45px;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 45px;
+    font-weight: bold;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.sintra {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+    z-index: 2;
+    
+} 
+
+.line{
+  display: block;
+  margin-top: 50px;
+  height: 1.5px;
+  border-width: 0;
+  color: #333;
+  background-color: #333;
+  width: 70%;
+}
+
+
+.line1{
+  display: block;
+  margin-top: 50px;
+  height: 1.5px;
+  border-width: 0;
+  color: #333;
+  background-color: #333;
+  width: 50%;
+}
+
+.emojis{
+  display: block;
+  text-align: center;
+}
+
+.word {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  position: relative;
+  z-index: 2;
+  
+}
+
+.lista{  
+  margin-left: 340px;
+  margin-right: 365px;
+  font-family: 'Roboto', sans-serif;
+}
+
+svg{
+    display: flex;
+    margin-left: 33%;
+  }
+
