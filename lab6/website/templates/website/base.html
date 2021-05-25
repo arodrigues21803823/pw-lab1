@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<header class="jumbotron text-center">
+    <h1>Afonso Rodrigues UNP LDA</h1>
+    <p>Máquinas e Acessórios</p>
+    <nav>
+        <a href="{% url 'website:home' %}"class="btn btn-info">Index</a>
+        <a href="{% url 'website:products' %}"class="btn btn-info">Produtos</a>
+        <a href="{% url 'website:contacts' %}"class="btn btn-info">Contactos</a>
+    </nav>
+</header>
+<article class="container">
+    <main class="col-sm-6">
+        {% block main %}
+        {% endblock main %}
+    </main>
+    <aside class="col-sm-6">
+    <img src="{% static 'website/images/ferramentas.jpg' %}">
+    </aside>
+</article>
+<footer>Afonso Rodrigues Unp Lda</footer>
+</body>
+</html>
